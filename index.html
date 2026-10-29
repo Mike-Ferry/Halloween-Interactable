@@ -121,6 +121,7 @@
     .promo-code-button span { font-family: "DM Sans", Arial, sans-serif; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
     .promo-code-button:hover { background: #fff7e8; }
     .promo-code-button:focus-visible, .events-link:focus-visible, .again-button:focus-visible { outline: 2px solid #241006; outline-offset: 2px; }
+    .ticket-note { margin: 2px 0 0; color: #45200e; font-size: 11px; font-weight: 900; letter-spacing: .08em; line-height: 1.1; text-transform: uppercase; }
     .copy-status-inline { min-height: 1em; margin: 0; font-size: 12px; font-weight: 800; line-height: 1.1; }
     .events-link { display: inline-flex; min-height: 36px; align-items: center; justify-content: center; margin-top: 4px; padding: 8px 13px; border: 1px solid rgba(50,23,7,.62); border-radius: 3px; background: rgba(255,241,209,.82); box-shadow: 0 2px 8px rgba(70,27,3,.2); color: #321707; font-size: clamp(12px, 1.5vw, 15px); font-weight: 900; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; transition: background .2s ease, box-shadow .2s ease, transform .2s ease; }
     .events-link:hover { background: #fff7e8; box-shadow: 0 4px 12px rgba(50,23,7,.28); transform: translateY(-1px); }
@@ -193,6 +194,7 @@
         <h2 class="reveal-title" id="deal-title">$25 off</h2>
         <p class="reveal-detail">Any upcoming Mike Ferry event</p>
         <button class="promo-code-button" id="copy-code" type="button" aria-label="Copy promo code BOO">BOO <span>tap to copy</span></button>
+        <p class="ticket-note">New tickets only</p>
         <p class="copy-status-inline" id="copy-status" aria-live="polite"></p>
         <a class="events-link" href="https://www.mikeferry.com/product-category/event-tickets/" target="_blank" rel="noopener noreferrer">Browse upcoming events ↗</a>
         <button class="again-button" id="replay-button" type="button">Start over</button>
